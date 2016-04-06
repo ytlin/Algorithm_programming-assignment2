@@ -23,7 +23,7 @@ int main(void)
         cin>>N[n++];
     }
 
-    cout<<DaCMaxSubarray(N,0,n-1);
+    cout<<DaCMaxSubarray(N,0,n-1)<<endl;
 }
 
 
@@ -39,8 +39,6 @@ int DaCMaxSubarray(int* N,int s,int e)
        return N[s];
    }else
    {
-       cout<<s<<"???"<<e<<endl;
-       
        return max3( DaCMaxSubarray(N,s,mid) , DaCMaxSubarray(N,mid+1,e) , cross(N,s,e));
    }
 }
