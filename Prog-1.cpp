@@ -11,7 +11,7 @@ void BFMaxSubarray(int* N,int n);
 int main(void)
 {
     /*宣告*/
-    int N[10000];
+    int N[15000];
     int n=0;
     char tmp;
     /*I/O*/
@@ -37,5 +37,5 @@ void BFMaxSubarray(int* N,int n)
             if(sum > max)max = sum;
         }
     }
-    cout<<max;
+    cout<<max<<endl;
 }

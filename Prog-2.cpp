@@ -13,7 +13,7 @@ int main(void)
 {
 
     /*宣告*/
-    int N[10000];
+    int N[15000];
     int n=0;
     char tmp;
     /*I/O*/
